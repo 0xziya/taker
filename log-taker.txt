@@ -5420,3 +5420,16 @@
 5/20/2025 | 4:19:06 AM | INFO | Trying to check user miner status... 
 5/20/2025 | 4:19:07 AM | INFO | Last mining time: 5/19/2025, 4:23:45 AM
 5/20/2025 | 4:19:07 AM | WARN | Mining already started, next mining time is: 5/20/2025, 4:23:45 AM
+5/20/2025 | 8:21:46 AM | WARN |   === Sever is down bot might be slow - Just be patient ===
+5/20/2025 | 8:21:47 AM | INFO | Start process for wallet 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+5/20/2025 | 8:21:47 AM | INFO | Trying To Login for wallet: 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+5/20/2025 | 8:21:48 AM | INFO | Login successful... 
+5/20/2025 | 8:21:48 AM | INFO | Trying to check user info... 
+5/20/2025 | 8:21:49 AM | INFO | User ID: 102951629 | Twitter: @naziyalarasati | Total Points: 2016000 
+5/20/2025 | 8:21:49 AM | INFO | Trying to check user miner status... 
+5/20/2025 | 8:21:53 AM | INFO | Last mining time: 5/19/2025, 4:23:45 AM
+5/20/2025 | 8:21:53 AM | INFO | Trying to start Mining for wallet: 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+5/20/2025 | 8:21:56 AM | INFO | Mine response: {"code":200,"msg":"SUCCESS","data":"ok"}
+5/20/2025 | 8:21:56 AM | INFO | Trying to activate mining on-chain for wallet: 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+5/20/2025 | 8:22:15 AM | ERROR | Activate Mining Error: {"code":"INSUFFICIENT_FUNDS","transaction":"0x02f86e8204655a83030d40832191c082ed9594b3efe5105b835e5dd9d206445dbd66df24b912ab808402fb0c5ec001a0be840694c95f3cec97822cb4ee6e17f2b924bfe6fbdaecb912c5cd31d2996feca03aa902be220a2401d3e8bb854a96d26f1022df3885fc37722f7e7927d5a7f369","info":{"error":{"code":-32603,"message":"insufficient funds for gas * price + value"}},"shortMessage":"insufficient funds for intrinsic transaction cost"}
+5/20/2025 | 8:22:15 AM | ERROR | Wallet already start mine today or wallet dont have taker balance 
