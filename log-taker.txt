@@ -8434,3 +8434,15 @@
 7/12/2025 | 1:20:50 AM | INFO | Trying to activate mining on-chain for wallet: 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
 7/12/2025 | 1:20:51 AM | ERROR | Activate Mining Error: {"code":"CALL_EXCEPTION","action":"estimateGas","data":"0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000356d757374206265206d6f7265207468616e20323420686f7572732073696e636520746865206c6173742061637469766174696f6e2e0000000000000000000000","reason":"must be more than 24 hours since the last activation.","transaction":{"to":"0xB3eFE5105b835E5Dd9D206445Dbd66DF24b912AB","data":"0x02fb0c5e","from":"0x7DDA2749653D831E2B0cC74235b6E7647183A056"},"invocation":null,"revert":{"signature":"Error(string)","name":"Error","args":["must be more than 24 hours since the last activation."]},"shortMessage":"execution reverted: \"must be more than 24 hours since the last activation.\"","info":{"error":{"code":-32603,"message":"VM Exception while processing transaction: revert must be more than 24 hours since the last activation.","data":"0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000356d757374206265206d6f7265207468616e20323420686f7572732073696e636520746865206c6173742061637469766174696f6e2e0000000000000000000000"},"payload":{"method":"eth_estimateGas","params":[{"nonce":"0x89","from":"0x7dda2749653d831e2b0cc74235b6e7647183a056","to":"0xb3efe5105b835e5dd9d206445dbd66df24b912ab","data":"0x02fb0c5e"}],"id":3,"jsonrpc":"2.0"}}}
 7/12/2025 | 1:20:51 AM | ERROR | Wallet already start mine today or wallet dont have taker balance 
+7/12/2025 | 4:27:55 AM | WARN |   === Sever is down bot might be slow - Just be patient ===
+7/12/2025 | 4:27:55 AM | INFO | Start process for wallet 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+7/12/2025 | 4:27:56 AM | INFO | Trying To Login for wallet: 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+7/12/2025 | 4:27:57 AM | INFO | Login successful... 
+7/12/2025 | 4:27:57 AM | INFO | Trying to check user info... 
+7/12/2025 | 4:27:57 AM | INFO | User ID: 102951629 | Twitter: @naziyalarasati | Total Points: 3168000 
+7/12/2025 | 4:27:57 AM | INFO | Trying to check user miner status... 
+7/12/2025 | 4:27:58 AM | INFO | Last mining time: 7/11/2025, 1:19:42 AM
+7/12/2025 | 4:27:58 AM | INFO | Trying to start Mining for wallet: 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+7/12/2025 | 4:27:59 AM | INFO | Mine response: {"code":500,"msg":"startMining Fail, startMining has not reached refresh time","data":null}
+7/12/2025 | 4:27:59 AM | INFO | Trying to activate mining on-chain for wallet: 0x7DDA2749653D831E2B0cC74235b6E7647183A056 
+7/12/2025 | 4:28:10 AM | INFO | Activate Mining Hash: https://explorer.taker.xyz/tx/0x6c90b4e16ba3c470fb934d057ca06366e0b214faf6cc76e4d3c902e7acfd6156 
